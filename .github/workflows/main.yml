@@ -1,7 +1,10 @@
 name: Keep Aternos Awake
+name: Keep Aternos Awake
 on:
+  workflow_dispatch: # <--- THIS ENABLES THE MANUAL RUN BUTTON
   schedule:
-    - cron: '*/5 * * * *' # Automatically runs every 5 minutes 24/7
+    - cron: '*/5 * * * *'
+
 
 jobs:
   ping-bot:
