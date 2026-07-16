@@ -1,5 +1,4 @@
 name: Keep Aternos Awake
-name: Keep Aternos Awake
 on:
   workflow_dispatch: # <--- THIS ENABLES THE MANUAL RUN BUTTON
   schedule:
